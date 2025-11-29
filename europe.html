@@ -1,0 +1,103 @@
+<style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      background-color: #fdfaf5;
+      color: #333;
+    }
+
+    header {
+      background-color: #d87b42; /* Terracotta */
+      color: white;
+      padding: 60px 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 4em;
+      margin: 0;
+    }
+
+
+    section {
+      padding: 80px 50px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: rgb(233, 202, 100);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 20px;
+      font-size: 1.2em;
+    }
+  .cards a {
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+
+  .cards a:visited {
+    color: black;
+  }   
+   
+
+    footer {
+      background-color: #6b4c3b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+<header>
+    <h1>EUROPEAN RECIPES</h1>
+      <a href="index.html">Home</a>
+</header>
+  <section>
+  <div class="cards">
+
+    <a href="Paella.html" class="card">
+      <img src="https://assets.epicurious.com/photos/63ef9f657c3e98834ec8645e/1:1/w_4225,h_4225,c_limit/Paella_RECIPE_021523_47427.jpg" alt="">
+      <h3>Spanish Paella</h3>
+    </a>
+
+    <a href="Alfredo.html" class="card">
+      <img src="https://www.simplyrecipes.com/thmb/M8XKDSLRjM-zGL90tk-o2Tj6bAI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Copycat-Olive-Garden-Alfredo-LEAD-4-8f75111d3a324a0abb1ee46906f27417.jpg" alt="">
+      <h3>Italian Fettucine Alfredo</h3>
+    </a>
+
+    <a href="Schnitzel.html" class="card">
+      <img src="https://fedbysab.com/wp-content/uploads/2023/02/German-Pork-Schnitzel-Recipe.jpg" alt="">
+      <h3>German Schnitzel</h3>
+    </a>
+
+    <a href="Pie.html" class="card">
+      <img src="https://www.chowhound.com/img/gallery/the-complete-history-of-shepherds-pie/shepherds-pie-today-1699618062.jpg" alt="">
+      <h3>English Sheperd's Pie</h3>
+    </a>
+
+  </div>
+</section>

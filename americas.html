@@ -1,0 +1,104 @@
+<style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      background-color: #fdfaf5;
+      color: #333;
+    }
+
+    header {
+      background-color: #d87b42; /* Terracotta */
+      color: white;
+      padding: 60px 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 4em;
+      margin: 0;
+    }
+
+
+    section {
+      padding: 80px 50px;
+    }
+
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: rgb(233, 202, 100);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 20px;
+      font-size: 1.2em;
+    }
+  .cards a {
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+
+  .cards a:visited {
+    color: black;
+  }   
+   
+
+    footer {
+      background-color: #6b4c3b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+<header>
+    <h1>AMERICAN RECIPES</h1>
+      <a href="index.html">Home</a>
+</header>
+<section>
+  <div class="cards">
+
+    <a href="Moqueca.html" class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Moqueca.jpg/1200px-Moqueca.jpg" alt="">
+      <h3>Brazilian Moqueca</h3>
+    </a>
+
+    <a href="Milanesa.html" class="card">
+      <img src="https://www.kimschob.com/wp-content/uploads/2025/03/Beef-Milanesa-Steak-Recipe.jpg" alt="">
+      <h3>Argentinian Milanesa</h3>
+    </a>
+
+    <a href="Ceviche.html" class="card">
+      <img src="https://www.feastingathome.com/wp-content/uploads/2015/04/Ceviche-Recipe.jpg" alt="">
+      <h3>Peruvian Ceviche</h3>
+    </a>
+
+    <a href="Gaja.html" class="card">
+      <img src="https://www.allrecipes.com/thmb/Lr9xjJ7lR0erc3VXlemXG8lubmg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ALR-34512-real-homemade-tamales-VAT-hero-4x3-2-2801c868c29848e782ffe9a3f9610cd9.jpg" alt="">
+      <h3>Mexican Tamales</h3>
+    </a>
+
+  </div>
+</section>

@@ -1,0 +1,99 @@
+<style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      background-color: #fdfaf5;
+      color: #333;
+    }
+
+    header {
+      background-color: #d87b42; /* Terracotta */
+      color: white;
+      padding: 60px 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 4em;
+      margin: 0;
+    }
+
+
+    section {
+      padding: 80px 50px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: rgb(233, 202, 100);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 20px;
+      font-size: 1.2em;
+    }
+  .cards a {
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+
+  .cards a:visited {
+    color: black;
+  }   
+   
+
+    footer {
+      background-color: #6b4c3b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+<header>
+    <h1>OCEANIAN RECIPES</h1>
+      <a href="index.html">Home</a>
+</header>
+
+  <section>
+  <div class="cards">
+
+    <a href="Pavlova.html" class="card">
+      <img src="https://www.allrecipes.com/thmb/-2pxCwNXZwRCoE6n8wJ-_mgmOTY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ALR-15532-the-best-pavlova-VAT-4X3-01-57f25899476e4bdfb11fa5ed20f20526.jpg" alt="">
+      <h3>Australian Pavlova</h3>
+    </a>
+
+    <a href="Kokoda.html" class="card">
+      <img src="https://images.squarespace-cdn.com/content/v1/60eb8f2028ed847759d11cc0/bde81ea2-0789-4bd7-9d4a-ceb4cabff99f/AdobeStock_371803422.jpeg" alt="">
+      <h3>Fijian Kokoda</h3>
+    </a>
+
+    <a href="Scallop.html" class="card">
+      <img src="https://images.notquitenigella.com/images/tasmanian-scallop-pie/ll.jpg" alt="">
+      <h3>Tasmanian Scallop Pie</h3>
+    </a>
+
+  </div>
+</section>

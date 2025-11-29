@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FOODVENTURE</title>
+
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      background-color: #fdfaf5;
+      color: #333;
+    }
+
+    header {
+      background-color: #d87b42; 
+      color: white;
+      padding: 20px 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.8em;
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background-image: url("https://hips.hearstapps.com/hmg-prod/images/pad-thai-index-6477629462a38.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+      position: relative;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero h2 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .hero button {
+      background-color: #f1c27d;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    .hero button:hover {
+      background-color: #f3b85b;
+    }
+
+    section {
+      padding: 60px 50px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2em;
+      color: #6b4c3b;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: rgb(233, 202, 100);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 15px;
+      font-size: 1.2em;
+    }
+
+    .newsletter {
+      background-color: #f1c27d;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .newsletter input {
+      padding: 10px;
+      border: none;
+      border-radius: 25px;
+      width: 250px;
+      margin-right: 10px;
+    }
+
+    .newsletter button {
+      background-color: #d87b42;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #6b4c3b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Foodventure</h1>
+    <nav>
+      <a href="#">Home</a>
+  </header>
+<section class="hero">
+   <div class="hero-content"> 
+    <h2>Explore Recipes from Around the World</h2> 
+    <a href="google.com"> 
+    </a> 
+  </div> 
+</section>
+  <h2 class="section-title">Discover by Continent</h2>
+  <div class="cards">
+
+    <a href="asia.html" class="card">
+      <h3>Asia</h3>
+  <style>
+  .cards a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .cards a:visited {
+    color: inherit;
+  }
+</style>
+    </a>
+
+    <a href="europe.html" class="card">
+      <h3>Europe</h3>
+    </a>
+
+    <a href="africa.html" class="card">
+      <h3>Africa</h3>
+    </a>
+
+    <a href="americas.html" class="card">
+      <h3>Americas</h3>
+    </a>
+
+    <a href="oceania.html" class="card">
+      <h3>Oceania</h3>
+      
+    </a>
+    
+  </div>
+</section>
+
+
+  <section>
+  <h2 class="section-title">Favourites</h2>
+  <div class="cards">
+
+    <a href="katsu.html" class="card">
+      <img src="https://sudachirecipes.com/wp-content/uploads/2022/08/Japanese-curry-using-roux-thumbnail.jpg" alt="">
+      <h3>Japanese Curry</h3>
+    </a>
+
+    <a href="alfredo.html" class="card">
+      <img src="https://www.modernhoney.com/wp-content/uploads/2018/08/Fettuccine-Alfredo-Recipe-1-500x500.jpg" alt="">
+      <h3>Italian Fetuccine Alfredo</h3>
+    </a>
+
+    <a href="butterchicken.html" class="card">
+      <img src="https://www.gaumenfreundin.de/wp-content/uploads/2024/04/Butter-Chicken-einfach.jpg" alt="">
+      <h3>Indian Butter Chicken</h3>
+    </a>
+
+    <a href="moqueca.html" class="card">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL_reHwSbVedxPyfwJcx9Ti92Mi6vnWf9EDylydlOr6kfvW4T7RtodVkD62cDbib-me21hLi3oMkjPobtgocp-_7HJsw1slConloSwc-ZWs7-JzQKIGrh8y9w2piVC6QkQ7-xGpySyTUWy/s1600/Moqueca+4.jpg" alt="">
+      <h3>Brazilian Moqueca</h3>
+    </a>
+
+  </div>
+</section>
+<section>
+  <h2 class="section-title">Country Highlight: Morocco</h2>
+  <div class="cards">
+
+    <a href="couscous.html" class="card">
+      <img src="https://static01.nyt.com/images/2024/10/17/multimedia/NB-Moroccan-Vegetable-Couscousrex-clpz/NB-Moroccan-Vegetable-Couscousrex-clpz-mediumSquareAt3X.jpg" alt="">
+      <h3>Moroccan Couscous</h3>
+    </a>
+
+    <a href="harira.html" class="card">
+      <img src="https://images.immediate.co.uk/production/volatile/sites/30/2021/09/Harira-0ad84c9.jpg?quality=90&resize=708,643" alt="">
+      <h3>Harira</h3>
+    </a>
+
+  </div>
+</section>
